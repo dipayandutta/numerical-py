@@ -94,3 +94,25 @@ print "Yearly Quarter Starts month"
 print "------------------------------------------------------"
 print months[::3]
 
+#Sort the months list
+print "-------------------------------------------------------"
+print "Sorted List"
+print "--------------------------------------------------------"
+print sorted(months) 
+
+#Sort in reverse order
+print "Reverse sorted"
+print "---------------------------------------------------------"
+print sorted(months,reverse=True)
+
+#Create and Copy a list
+numbers = [1,2,3,4]
+
+#Copy a list 
+new_numbers = numbers[:]
+new_numbers = list(numbers)
+
+#Print new numbers list after copying
+
+print "-----------------------------------------------------------"
+print new_numbers
